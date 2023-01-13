@@ -1,6 +1,4 @@
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class Calculator {
 
@@ -48,13 +46,13 @@ public class Calculator {
         }
         return num1 / num2;
     }
-     public void saveResults() throws IOException {
-        FileWriter writer = new FileWriter(file);
-         writer.write("Sum: " + add() + "\n");
-         writer.write("Subtraction: " + subtract() + "\n");
-         writer.write("Multiplication: " + multiply() + "\n");
-         writer.write("Division: " + divide() + "\n");
-         writer.close();
-     }
+//     public void saveResults() throws IOException {
+//        FileWriter writer = new FileWriter(file);
+//         writer.write("Sum: " + add() + "\n");
+//         writer.write("Subtraction: " + subtract() + "\n");
+//         writer.write("Multiplication: " + multiply() + "\n");
+//         writer.write("Division: " + divide() + "\n");
+//         writer.close();
+//     }
     }
 
