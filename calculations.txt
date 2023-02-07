@@ -1,0 +1,4 @@
+The result is : 14.0
+The result was saved on: 2023-02-07 18:15:48
+The result is : 40.0
+The result was saved on: 2023-02-07 18:15:58

@@ -40,12 +40,15 @@ public class Calculator {
     }
 
     public double divide() {
-        if(num2 == 0){
+        if (num2 == 0) {
             System.out.println("Cannot divide by 0");
             return Double.NaN;
         }
         return num1 / num2;
     }
+    //check instance of not number and return to step one
+    //change to while loops //do while
+
 //     public void saveResults() throws IOException {
 //        FileWriter writer = new FileWriter(file);
 //         writer.write("Sum: " + add() + "\n");
@@ -54,5 +57,5 @@ public class Calculator {
 //         writer.write("Division: " + divide() + "\n");
 //         writer.close();
 //     }
-    }
+}
 
