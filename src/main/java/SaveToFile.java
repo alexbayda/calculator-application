@@ -10,8 +10,7 @@ public class SaveToFile {
         try {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             String date = sdf.format(new Date());
-            String filename = "calculations.txt";
-            File file = new File(filename);
+            File file = new File("calculations.txt");
             FileWriter fileWriter = new FileWriter(file, true);
             fileWriter.write("The result is : " + result + "\n" + "The result was saved on: " + date + "\n");
             fileWriter.close();

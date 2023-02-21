@@ -4,7 +4,7 @@ public class Application {
 
     public void run() {
         Scanner scanner = new Scanner(System.in);
-        Calculator calculator = new Calculator("results.txt");
+        Calculator calculator = new Calculator();
 
 
         System.out.println("Enter the first number");

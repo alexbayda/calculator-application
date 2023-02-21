@@ -1,15 +1,7 @@
-import java.io.File;
-
 public class Calculator {
 
     private double num1;
     private double num2;
-
-    File file;
-
-    public Calculator(String fileName) {
-        this.file = new File(fileName);
-    }
 
     public void setNum1(double num1) {
         if (num1 < -20 || num1 > 20) {
@@ -46,16 +38,5 @@ public class Calculator {
         }
         return num1 / num2;
     }
-    //check instance of not number and return to step one
-    //change to while loops //do while
-
-//     public void saveResults() throws IOException {
-//        FileWriter writer = new FileWriter(file);
-//         writer.write("Sum: " + add() + "\n");
-//         writer.write("Subtraction: " + subtract() + "\n");
-//         writer.write("Multiplication: " + multiply() + "\n");
-//         writer.write("Division: " + divide() + "\n");
-//         writer.close();
-//     }
 }
 
